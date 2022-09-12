@@ -16,24 +16,19 @@
 </head>
 <body>
 
-    <header>
-        <center>
-        <div class="series-frame">
-            <h2>TO-DO LIST</h2>
+    <header><div class="series-frame"><h2>TO-DO LIST</h2></div><i class="fa-regular fa-calendar-check fa-3x"></i></header>
+    <div>
+        <form>
+            <input type="text" class="todo-input"/>
+            <button class="todo-button" type="submit">
+                <i class="fa-solid fa-plus"></i>
+            </button>
+        </form>
+        </form>
+        <div class="todo-container">
+            <ul class="todo-list"></ul>
         </div>
-        <div>
-            <form action="">
-                <input type="text" class="todo-input">
-                <button class="todo-button" type="submit">
-                    <i class="fa-solid fa-plus"></i>
-                </button>
-            </form>
-            <div class="todo-container">
-                <ul class="todo-list"></ul>
-            </div>
-        </div>
-        </center>
-    </header>
-
-<script src="js/app.js"></script>
+    </div>
+    <script src="js/app.js"></script>
 </body>
+</html>
